@@ -12,13 +12,13 @@ with open("README.md", "r") as fh:
   LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-  name="lambdata-nwdelafu",
+  name="lambdata-raymond98tan",
   version="0.0.1",
   author="nwdelafu",
   description="A collection of data science functions",
   long_description=LONG_DESCRIPTION,
   long_description_content="text/markdown",
-  url='https://github.com/nwdelafu/lambdata',
+  url='https://github.com/raymond98tan/lambdata',
   packages=setuptools.find_packages(),
   python_requires=">=3.6",
   install_requires=REQUIRED,
